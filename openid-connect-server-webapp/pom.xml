@@ -81,6 +81,9 @@
 					<webAppConfig>
 						<contextPath>/openid-connect-server-webapp</contextPath>
 					</webAppConfig>
+					<httpConnector>
+						<port>8079</port>
+					</httpConnector>
 				</configuration>
 			</plugin>
 		</plugins>
